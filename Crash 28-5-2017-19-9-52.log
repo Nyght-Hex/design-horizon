@@ -1,0 +1,21 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 5/28/2017 7:09:52 PM
+Mobiles: 3514
+Items: 120929
+Exception:
+System.IO.FileNotFoundException: Could not find file 'Data/VoteSystem.cfg'.
+File name: 'Data/VoteSystem.cfg'
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileInfo.get_Length()
+   at Server.Voting.VoteConfig.Deserialize()
+   at Server.ServerStartedEventHandler.Invoke()
+   at Server.EventSink.InvokeServerStarted() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\EventSink.cs:line 1308
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 568
+
+Clients:
+- Count: 0

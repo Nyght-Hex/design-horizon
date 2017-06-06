@@ -1,0 +1,29 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 6/5/2017 6:34:14 PM
+Mobiles: 4677
+Items: 132120
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Knives.Chat3.ListGump10.BuildTabs(Int32 width, Int32 y)
+   at Knives.Chat3.ListGump10.BuildGump()
+   at Knives.Chat3.GumpPlus.NewGump()
+   at Server.Timer.DelayCallTimer.OnTick() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Timer.cs:line 614
+   at Server.Timer.Slice() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Timer.cs:line 393
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 586
+
+Clients:
+- Count: 9
++ 10.0.0.7: (account = Hex) (mobile = 0x3B4 'Hex')
++ 201.162.116.224: (account = Storm) (mobile = 0x952 'StormShadow')
++ 73.214.46.171: (account = rizzen76) (mobile = 0xF524 'thea')
++ 10.0.0.7: (account = Nyght1) (mobile = 0xD65 'Dante')
++ 10.0.0.7: (account = Nyght) (mobile = 0x5ED 'Okami Inari')
++ 73.214.46.171: (account = kaneo76) (mobile = 0x3B2 'tanindarz')
++ 73.214.46.171: (account = raven76) (mobile = 0x595 'shadow hunter')
++ 73.54.35.180: (account = Monk125) (mobile = 0x3F0C 'King Loki')
++ 31.6.103.131: (account = karasuk1) (mobile = 0xBF8 'Hell Moor')

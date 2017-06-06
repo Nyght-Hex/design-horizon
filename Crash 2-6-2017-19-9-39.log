@@ -1,0 +1,24 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 6/2/2017 7:09:39 PM
+Mobiles: 4131
+Items: 129895
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Engines.VoidPool.ScoresGump.AddGumpLayout()
+   at Server.Items.BestWaveBoard.OnDoubleClick(Mobile m)
+   at Server.Mobile.Use(Item item) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Mobile.cs:line 4417
+   at Server.Engines.XmlSpawner2.XmlAttach.UseReq(NetState state, PacketReader pvSrc)
+   at Server.Network.MessagePump.HandleReceive(NetState ns) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 187
+   at Server.Network.MessagePump.Slice() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 121
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 587
+
+Clients:
+- Count: 3
++ 10.0.0.7: (account = Hex) (mobile = 0x3B4 'Hex')
++ 10.0.0.7: (account = Nyght) (mobile = 0x5ED 'Okami Inari')
++ 10.0.0.7: (account = Nyght1) (mobile = 0xD65 'Dante')

@@ -1,0 +1,27 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 6/1/2017 3:21:12 PM
+Mobiles: 3609
+Items: 126006
+Exception:
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Server.Voting.VoteEvents.OnVoteRequest(VoteRequestEventArgs e)
+   at Server.Voting.VoteEvents.InvokeVoteRequest(VoteRequestEventArgs e)
+   at Server.Voting.VoteItem.OnDoubleClick(Mobile from)
+   at Server.Mobile.Use(Item item) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Mobile.cs:line 4417
+   at Server.Engines.XmlSpawner2.XmlAttach.UseReq(NetState state, PacketReader pvSrc)
+   at Server.Network.MessagePump.HandleReceive(NetState ns) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 187
+   at Server.Network.MessagePump.Slice() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 121
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 587
+
+Clients:
+- Count: 5
++ 31.6.103.131: (account = karasuk1) (mobile = 0xBF8 'Hell Moor')
++ 177.184.101.28: (account = Storm) (mobile = 0x952 'StormShadow')
++ 177.184.101.28: (account = Storm1) (mobile = 0x222B 'Muramasa')
++ 31.6.103.131: (account = karasuk) (mobile = 0xF14 'Ishida Yamamoto')
++ 10.0.0.7: (account = Hex) (mobile = 0x3B4 'Hex')

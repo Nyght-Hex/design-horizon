@@ -1,0 +1,114 @@
+rizzen76 currency: 25,504
+silas04 currency: 4,222
+Hex currency: 0
+kaneo76 currency: 0
+realo1 currency: 0
+gogogo currency: 0
+raven76 currency: 0
+kill currency: 0
+
+Total Accounts: 8
+Total Shard Gold: 29,727
+Nyght currency: 150,021
+rizzen76 currency: 66,163
+Storm currency: 24,809
+silas04 currency: 4,222
+kaneo76 currency: 1,991
+raven76 currency: 1,758
+Hex currency: 0
+realo1 currency: 0
+gogogo currency: 0
+kill currency: 0
+tedibear currency: 0
+Eddie currency: 0
+raven90 currency: 0
+
+Total Accounts: 13
+Total Shard Gold: 248,967
+Nyght currency: 150,021
+rizzen76 currency: 66,163
+Storm currency: 24,809
+silas04 currency: 4,222
+kaneo76 currency: 1,991
+raven76 currency: 1,758
+Hex currency: 0
+realo1 currency: 0
+gogogo currency: 0
+kill currency: 0
+tedibear currency: 0
+Eddie currency: 0
+raven90 currency: 0
+
+Total Accounts: 13
+Total Shard Gold: 248,967
+Storm currency: 172,617
+Nyght currency: 153,010
+rizzen76 currency: 39,502
+Storm1 currency: 11,446
+karasuk currency: 9,391
+ozirisneto currency: 6,000
+zork currency: 4,555
+silas04 currency: 4,222
+zorkq currency: 2,087
+kaneo76 currency: 1,991
+raven76 currency: 1,368
+Nyght1 currency: 1,000
+Hex currency: 0
+realo1 currency: 0
+gogogo currency: 0
+kill currency: 0
+tedibear currency: 0
+Eddie currency: 0
+raven90 currency: 0
+karasuk1 currency: 0
+
+Total Accounts: 20
+Total Shard Gold: 407,194
+Storm currency: 172,617
+Nyght currency: 153,010
+rizzen76 currency: 39,502
+Storm1 currency: 11,446
+karasuk currency: 9,391
+ozirisneto currency: 6,000
+zork currency: 4,555
+silas04 currency: 4,222
+zorkq currency: 2,087
+kaneo76 currency: 1,991
+raven76 currency: 1,368
+Nyght1 currency: 1,000
+Hex currency: 0
+realo1 currency: 0
+gogogo currency: 0
+kill currency: 0
+tedibear currency: 0
+Eddie currency: 0
+raven90 currency: 0
+karasuk1 currency: 0
+
+Total Accounts: 20
+Total Shard Gold: 407,194
+Storm currency: 250,199
+Nyght currency: 153,010
+rizzen76 currency: 37,522
+zork currency: 8,214
+ozirisneto currency: 6,000
+karasuk currency: 5,836
+Storm1 currency: 4,401
+silas04 currency: 4,222
+kaneo76 currency: 1,991
+raven76 currency: 1,368
+Nyght1 currency: 1,000
+zorkq currency: 500
+Hex currency: 0
+realo1 currency: 0
+gogogo currency: 0
+kill currency: 0
+tedibear currency: 0
+Eddie currency: 0
+raven90 currency: 0
+karasuk1 currency: 0
+nichol24 currency: 0
+realo2 currency: 0
+
+Total Accounts: 22
+Total Shard Gold: 474,268

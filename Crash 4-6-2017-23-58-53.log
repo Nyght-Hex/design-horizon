@@ -1,0 +1,46 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 6/4/2017 11:58:53 PM
+Mobiles: 4453
+Items: 132889
+Exception:
+System.Xml.XmlException: Unexpected end of file while parsing Name has occurred. Line 193, position 12.
+   at System.Xml.XmlTextReaderImpl.Throw(Exception e)
+   at System.Xml.XmlTextReaderImpl.ParseQName(Boolean isQName, Int32 startOffset, Int32& colonPos)
+   at System.Xml.XmlTextReaderImpl.ParseElement()
+   at System.Xml.XmlTextReaderImpl.ParseElementContent()
+   at Server.Gumps.CAGCategory..ctor(CAGCategory parent, XmlTextReader xml)
+   at Server.Gumps.CAGCategory..ctor(CAGCategory parent, XmlTextReader xml)
+   at Server.Gumps.CAGCategory..ctor(CAGCategory parent, XmlTextReader xml)
+   at Server.Gumps.CAGCategory..ctor(CAGCategory parent, XmlTextReader xml)
+   at Server.Gumps.CAGCategory..ctor(CAGCategory parent, XmlTextReader xml)
+   at Server.Gumps.CAGCategory.Load(String path)
+   at Server.Gumps.CAGCategory.get_Root()
+   at Server.Commands.Generic.AddCommand.ValidateArgs(BaseCommandImplementor impl, CommandEventArgs e)
+   at Server.Commands.Generic.SingleCommandImplementor.Redirect(CommandEventArgs e)
+   at Server.Commands.CommandSystem.Handle(Mobile from, String text, MessageType type) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Commands.cs:line 265
+   at Server.Mobile.DoSpeech(String text, Int32[] keywords, MessageType type, Int32 hue) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Mobile.cs:line 5062
+   at Server.Network.PacketHandlers.UnicodeSpeech(NetState state, PacketReader pvSrc) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\PacketHandlers.cs:line 1628
+   at Server.Network.MessagePump.HandleReceive(NetState ns) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 187
+   at Server.Network.MessagePump.Slice() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 115
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 589
+
+Clients:
+- Count: 13
++ 127.0.0.1: (account = Hex) (mobile = 0x3B4 'Hex')
++ 24.33.84.129: (account = silas04) (mobile = 0x13407 'Reckitt')
++ 10.0.0.7: (account = Nyght1) (mobile = 0xD65 'Dante')
++ 10.0.0.7: (account = Nyght) (mobile = 0x5ED 'Okami Inari')
++ 73.54.35.180: (account = Monk125) (mobile = 0x3F0C 'King Loki')
++ 73.214.46.171: (account = kaneo76) (mobile = 0x3B2 'tanindarz')
++ 24.33.84.129: (account = silas) (mobile = 0x8FA6 'Piper')
++ 109.254.7.129: (account = zorkq) (mobile = 0x9C4 'Zork')
++ 201.162.116.224: (account = Storm) (mobile = 0x952 'StormShadow')
++ 109.254.7.129: (account = zork) (mobile = 0xBA1 'EVa')
++ 201.162.116.224: (account = Storm1) (mobile = 0x222B 'Muramasa')
++ 73.214.46.171: (account = rizzen76) (mobile = 0xF524 'thea')
++ 73.214.46.171: (account = raven76) (mobile = 0x595 'shadow hunter')

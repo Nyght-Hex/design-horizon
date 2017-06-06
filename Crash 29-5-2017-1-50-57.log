@@ -1,0 +1,29 @@
+Server Crash Report
+===================
+
+ServUO Version 0.5, Build 6355.21869
+Operating System: Microsoft Windows NT 6.2.9200.0
+.NET Framework: 4.0.30319.42000
+Time: 5/29/2017 1:50:57 AM
+Mobiles: 3679
+Items: 124685
+Exception:
+System.NotImplementedException: The method or operation is not implemented.
+   at Server.Mobiles.BaseCreature.UtilityRandomDouble()
+   at Server.Mobiles.BaseCreature.OnBeforeDeath()
+   at Server.Mobile.Kill() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Mobile.cs:line 3990
+   at Server.Commands.Generic.KillCommand.Execute(CommandEventArgs e, Object obj)
+   at Server.Commands.Generic.BaseCommandImplementor.RunCommand(Mobile from, Object obj, BaseCommand command, String[] args)
+   at Server.Commands.Generic.SingleCommandImplementor.OnTarget(Mobile from, Object targeted, Object state)
+   at Server.Mobile.SimpleStateTarget.OnTarget(Mobile from, Object targeted) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Mobile.cs:line 2667
+   at Server.Targeting.Target.Invoke(Mobile from, Object targeted) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Targeting\Target.cs:line 273
+   at Server.Network.PacketHandlers.TargetResponse(NetState state, PacketReader pvSrc) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\PacketHandlers.cs:line 1351
+   at Server.Network.MessagePump.HandleReceive(NetState ns) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 187
+   at Server.Network.MessagePump.Slice() in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Network\MessagePump.cs:line 115
+   at Server.Core.Main(String[] args) in C:\Users\adcoo\Desktop\NEW HORIZON SERVER\New Horizon Server\Server\Main.cs:line 589
+
+Clients:
+- Count: 3
++ 10.0.0.7: (account = Hex) (mobile = 0x3B4 'Hex')
++ 73.214.46.171: (account = kaneo76) (mobile = 0x3B2 'tanindarz')
++ 10.0.0.7: (account = Nyght) (mobile = 0x5ED 'Okami Inari')
